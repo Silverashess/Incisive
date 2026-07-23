@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>INCISIVE — Surgical Field Reference</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;1,400;1,500;1,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="brand"><span class="brand-mark"></span>INCISIVE</a>
+    <div class="nav-links">
+      <a href="cases.html">Cases</a>
+      <a href="#">Method</a>
+      <a href="#">About</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Surgical field reference</div>
+      <h1>
+        <span class="line"><span>Every incision,</span></span>
+        <span class="line"><span>read in three dimensions.</span></span>
+      </h1>
+
+      <div class="suture-wrap">
+        <svg viewBox="0 0 460 34" fill="none">
+          <path class="suture-path" d="M2 20 Q 40 4, 78 20 T 154 20 T 230 20 T 306 20 T 382 20 T 456 20"
+                stroke="var(--teal)" stroke-width="1.6" stroke-linecap="round"/>
+          <g stroke="var(--bone-dim)" stroke-width="1.6" stroke-linecap="round">
+            <line class="stitch" x1="40" y1="9" x2="46" y2="27"/>
+            <line class="stitch" x1="118" y1="9" x2="124" y2="27"/>
+            <line class="stitch" x1="196" y1="9" x2="202" y2="27"/>
+            <line class="stitch" x1="274" y1="9" x2="280" y2="27"/>
+            <line class="stitch" x1="352" y1="9" x2="358" y2="27"/>
+          </g>
+        </svg>
+      </div>
+
+      <p class="sub">INCISIVE pairs recorded operative video with rotating anatomical models, synced frame by frame — so the diagram turns exactly as the surgeon's hands do, and every structure stays labeled as it moves.</p>
+
+      <div class="cta-row">
+        <a href="cases.html" class="btn">Explore cases</a>
+        <button class="btn btn-ghost">How it works</button>
+      </div>
+    </div>
+
+    <div class="helix-stage">
+      <div class="helix">
+        <div class="rung" style="--i:0"><div class="node left"></div><div class="bar"></div><div class="node right"></div></div>
+        <div class="rung" style="--i:1"><div class="node left"></div><div class="bar"></div><div class="node right"></div></div>
+        <div class="rung" style="--i:2"><div class="node left"></div><div class="bar"></div><div class="node right"></div></div>
+        <div class="rung" style="--i:3"><div class="node left"></div><div class="bar"></div><div class="node right"></div></div>
+        <div class="rung" style="--i:4"><div class="node left"></div><div class="bar"></div><div class="node right"></div></div>
+        <div class="rung" style="--i:5"><div class="node left"></div><div class="bar"></div><div class="node right"></div></div>
+        <div class="rung" style="--i:6"><div class="node left"></div><div class="bar"></div><div class="node right"></div></div>
+        <div class="rung" style="--i:7"><div class="node left"></div><div class="bar"></div><div class="node right"></div></div>
+        <div class="rung" style="--i:8"><div class="node left"></div><div class="bar"></div><div class="node right"></div></div>
+        <div class="rung" style="--i:9"><div class="node left"></div><div class="bar"></div><div class="node right"></div></div>
+        <div class="rung" style="--i:10"><div class="node left"></div><div class="bar"></div><div class="node right"></div></div>
+        <div class="rung" style="--i:11"><div class="node left"></div><div class="bar"></div><div class="node right"></div></div>
+        <div class="rung" style="--i:12"><div class="node left"></div><div class="bar"></div><div class="node right"></div></div>
+        <div class="rung" style="--i:13"><div class="node left"></div><div class="bar"></div><div class="node right"></div></div>
+        <div class="helix-caption">model rotates with footage</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="toast mono" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
