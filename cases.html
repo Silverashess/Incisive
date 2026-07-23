@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cases — INCISIVE</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;1,400;1,500;1,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="brand"><span class="brand-mark"></span>INCISIVE</a>
+    <div class="nav-links">
+      <a href="cases.html" class="active">Cases</a>
+      <a href="index.html#">Method</a>
+      <a href="index.html#">About</a>
+    </div>
+  </nav>
+
+  <div class="page-head">
+    <div class="eyebrow">Case library</div>
+    <h1>
+      <span class="line"><span>Start where every</span></span>
+      <span class="line"><span>resident starts.</span></span>
+    </h1>
+    <p class="sub">One annotated case, live now. More are being scrubbed in.</p>
+  </div>
+
+  <section id="cases">
+    <div class="case-grid">
+
+      <div class="case-file-wrap">
+        <div class="case-file" data-tab="Case file">
+          <svg class="paperclip" viewBox="0 0 16 26" fill="none">
+            <path d="M8 2 C12 2 14 4.5 14 8 L14 18 C14 21.5 11.5 24 8 24 C4.5 24 2 21.5 2 18 L2 7 C2 4.8 3.8 3 6 3 C8.2 3 10 4.8 10 7 L10 17 C10 18.1 9.1 19 8 19 C6.9 19 6 18.1 6 17 L6 8"
+              stroke="var(--bone-mute)" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
+          <span class="case-id mono">Case file · 001</span>
+          <h3>Laparoscopic Cholecystectomy</h3>
+          <p class="case-meta">General surgery <span class="dot">·</span> Laparoscopic <span class="dot">·</span> Gallbladder</p>
+          <button class="btn" data-toast="The annotated viewer is still scrubbing in — coming soon.">View annotated case →</button>
+        </div>
+      </div>
+
+      <div class="case-file-wrap locked">
+        <div class="case-file" data-tab="Case file">
+          <svg class="paperclip" viewBox="0 0 16 26" fill="none">
+            <path d="M8 2 C12 2 14 4.5 14 8 L14 18 C14 21.5 11.5 24 8 24 C4.5 24 2 21.5 2 18 L2 7 C2 4.8 3.8 3 6 3 C8.2 3 10 4.8 10 7 L10 17 C10 18.1 9.1 19 8 19 C6.9 19 6 18.1 6 17 L6 8"
+              stroke="var(--bone-mute)" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
+          <span class="case-id mono">Case file · 002</span>
+          <h3>Appendectomy</h3>
+          <p class="case-meta">General surgery <span class="dot">·</span> Laparoscopic <span class="dot">·</span> Appendix</p>
+          <button class="btn" data-toast="This case is still being scrubbed in — check back soon.">In progress</button>
+        </div>
+      </div>
+
+      <div class="case-file-wrap locked">
+        <div class="case-file" data-tab="Case file">
+          <svg class="paperclip" viewBox="0 0 16 26" fill="none">
+            <path d="M8 2 C12 2 14 4.5 14 8 L14 18 C14 21.5 11.5 24 8 24 C4.5 24 2 21.5 2 18 L2 7 C2 4.8 3.8 3 6 3 C8.2 3 10 4.8 10 7 L10 17 C10 18.1 9.1 19 8 19 C6.9 19 6 18.1 6 17 L6 8"
+              stroke="var(--bone-mute)" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
+          <span class="case-id mono">Case file · 003</span>
+          <h3>Inguinal Hernia Repair</h3>
+          <p class="case-meta">General surgery <span class="dot">·</span> Open <span class="dot">·</span> Groin</p>
+          <button class="btn" data-toast="This case is still being scrubbed in — check back soon.">In progress</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="toast mono" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
